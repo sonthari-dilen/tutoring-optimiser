@@ -61,3 +61,29 @@ How to apply data analysis to a real business problem
 I actually own. This project is part of my transition 
 into biostatistics — practising structured 
 problem-solving with messy, real-world data.
+
+## Methodology
+
+This project follows a three-step process:
+
+**Step 1 — Variable identification**
+Brainstorm and define the variables that 
+characterise an ideal tutoring client 
+(e.g. effective hourly rate, attendance, 
+energy cost, longevity).
+
+**Step 2 — Client rating**
+Score each current client against every 
+variable on a 1–5 scale. Some variables 
+are backed by hard data (hourly rate, 
+attendance records); others are scored 
+on informed judgement (rapport, parent 
+communication style).
+
+**Step 3 — Weighted scoring model**
+Apply weights to each variable based on 
+personal priorities, then calculate a 
+composite ideal-client score per student. 
+Built first in Excel, then rebuilt in R 
+to enable sensitivity analysis and 
+richer visualisation.
